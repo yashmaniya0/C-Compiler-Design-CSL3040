@@ -70,12 +70,12 @@ YACC (Yet Another Compiler Compiler) is a tool used to generate a parser. It par
 For compiling `lexer.l` file :
 ```
 flex lexer.l        // for Windows
-lex lexer.l         // for Ubuntu
+lex lexer.l         // for Linux
 ```
 For compiling `scanner.y` file :
 ```
 bison -dy lexer.l   // for Windows
-yacc lexer.l        // for Ubuntu
+yacc lexer.l        // for Linux
 ```
 
 <br> 
